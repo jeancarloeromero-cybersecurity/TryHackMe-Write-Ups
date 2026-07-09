@@ -1,7 +1,6 @@
 # TryHackMe - Pre-Security Path
 
 **Labs completed:** 31  
-**Time to complete:** 19 hours 10 minutes  
 **Profile:** [JCER](https://tryhackme.com/p/JCER)
 
 ---
@@ -43,7 +42,7 @@ applicable to real AWS EC2 environments.
 ---
 
 ## Operating Systems Basics
-Dual focus on Linux and Windows CLI — the core of day-to-day SOC analyst work.
+Dual focus on Linux and Windows CLI 
 
 **Linux CLI commands practiced:**
 `pwd`, `ls`, `ls -l`, `ls -al`, `cd`, `find`, `cat`, `whoami`, `uname -a`, `df -h`, 
