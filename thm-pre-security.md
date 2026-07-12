@@ -1,5 +1,4 @@
 # TryHackMe - Pre-Security Path
-
 **Labs completed:** 31  
 **Profile:** [JCER](https://tryhackme.com/p/JCER)
 
@@ -15,7 +14,7 @@ hands-on CLI work.
 
 ## Network Fundamentals
 Reinforced core networking concepts including TCP/IP, UDP, DHCP, packet forwarding, 
-firewalls, and VPN basics — building on existing CompTIA Network+ knowledge with a 
+firewalls, and VPN basics, building on existing CompTIA Network+ knowledge with a 
 security-focused lens.
 
 ---
@@ -31,12 +30,12 @@ and dynamic content.
 ## Computer Fundamentals
 Virtualization architecture, hypervisor basics, and containers. Notable hands-on tools:
 
-- **Virtualization Manager** — TryHackMe simulated hypervisor management platform. 
+- **Virtualization Manager**: TryHackMe simulated hypervisor management platform. 
 Managed VMs across multiple hosts, monitored CPU/memory/storage usage. Real-world 
 equivalents: VMware vSphere, Proxmox VE.
-- **TryHackMe Cloud Console (EC2 Simulation)** — Provisioned and managed virtual 
+- **TryHackMe Cloud Console (EC2 Simulation)**: Provisioned and managed virtual 
 machine instances across compute tiers (t3.micro, t3.small, m5.large). Practiced 
-instance state management, resource allocation, and cost monitoring — directly 
+instance state management, resource allocation, and cost monitoring, directly 
 applicable to real AWS EC2 environments.
 
 ---
@@ -59,36 +58,31 @@ guided investigation missions inside a Linux environment.
 
 ## Software Basics
 Number systems (binary, octal, decimal, hex), data encoding standards (ASCII, Unicode, 
-UTF-8/16/32), and introductory scripting concepts in Python and JavaScript — variables, 
+UTF-8/16/32), and introductory scripting concepts in Python and JavaScript: variables, 
 conditionals, and loops. SQL fundamentals including writing queries using `SELECT`, 
 `FROM`, `WHERE`, `ORDER BY`, and `DESC`.
 
 ---
 
 ## Attacks and Defenses
-The most cybersecurity-focused module of the path — covering both offensive and 
+The most cybersecurity-focused module of the path, covering both offensive and 
 defensive fundamentals.
 
 **Blue Team / Defensive:**
-- CIA Triad — completed scenario-based exercises classifying real cybersecurity incidents 
+- CIA Triad: completed scenario-based exercises classifying real cybersecurity incidents 
 into Confidentiality, Integrity, and Availability categories
-- Cryptography — plaintext vs. ciphertext, symmetric vs. asymmetric encryption, public/
+- Cryptography: plaintext vs. ciphertext, symmetric vs. asymmetric encryption, public/
 private key infrastructure, and how encryption protects web browsing
-- Blue team methodology — prevention, detection, mitigation, analysis, response, and 
+- Blue team methodology: prevention, detection, mitigation, analysis, response, and 
 continuous improvement
-- Infrastructure protection — employee devices, web servers, mail servers, firewalls, 
+- Infrastructure protection: employee devices, web servers, mail servers, firewalls, 
 and internet traffic
 - Key concepts: threat anticipation, attack awareness, risk prioritization
 
 **Red Team / Offensive:**
-- Offensive security terminology — red teaming, pen testing, vulnerability, exploit, scope
+- Offensive security terminology: red teaming, pen testing, vulnerability, exploit, scope
 - Used **Gobuster** to enumerate hidden pages on a simulated target website by 
 directory brute-forcing
 - Chained discovered login page vulnerability to gain admin account access
 - Used **Hydra** to perform a dictionary attack via CLI against the target
 - All techniques practiced in a safe, permission-based environment
-
----
-
-*Completed as part of an active transition from physical security into cybersecurity, 
-building toward a blue team / incident response career path.*
